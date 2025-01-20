@@ -143,12 +143,14 @@ button {
     margin: 17px auto;
 }
 
-.imgtext__link1{
+.userinfo__button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     margin: 10px 0;
     text-decoration: underline;
+    cursor: pointer;
+    background-color: white;
 }
 
 .userinfo__img-text1  {
@@ -209,12 +211,13 @@ button {
     padding: 31px 0 40px;
 }
 
-.container__people-link{
+.container__people-button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 1);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .container__people-container{
@@ -251,12 +254,16 @@ button {
     margin: 31px 0;
 }
 
-.container__culture-link{
+.container__culture-button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 1);
     text-decoration: underline;
+    cursor: pointer;
+    background: rgba(204, 204, 204, 0.6);
+    ;
+    ;
 }
 
 .container__culture-img{
@@ -294,12 +301,13 @@ button {
     margin: 31px 0 39px;
 }
 
-.container__power-link{
+.container__power-button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 1);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .container__power-container{
@@ -508,6 +516,7 @@ button {
     text-align: center;
     padding-top: 35px;
     color: rgba(0, 0, 0, 1);
+    position: absolute;
 }
 
 .container__interviews2-text2{
@@ -517,25 +526,7 @@ button {
     text-align: center;
     color: rgba(0, 0, 0, 1);
     padding-top: 40px;
-}
-
-.container__interviews2-link1{
-    display: block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: rgba(0, 0, 0, 1);
-    padding-top: 52px;
-}
-
-.container__interviews2-title2{
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 25px;
-    text-align: center;
-    padding-top: 35px;
-    color: rgba(0, 0, 0, 1);
+    
 }
 
 .container__interviews2-text4{
@@ -547,14 +538,29 @@ button {
     padding-top: 40px;
 }
 
-.container__interviews2-link2{
+.container__interviews2-button {
+    max-width: 74px;
     display: block;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: rgba(0, 0, 0, 1);
-    padding-top: 52px;
+    margin-top: 52px;
+    position: relative;
+    left:100px;
+    top:0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container__interviews2-title2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 35px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .container__interviews2-title3{
@@ -575,16 +581,6 @@ button {
     padding-top: 40px;
 }
 
-.container__interviews2-link3{
-    display: block;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: rgba(0, 0, 0, 1);
-    padding-top: 52px;
-}
-
 .registration{
     display: flex;
     flex-direction: column;
@@ -599,7 +595,7 @@ button {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    padding-top: 79px;
+    margin-top: 79px;
 }
 
 .registration__text{
@@ -655,6 +651,7 @@ input::placeholder{
     margin-top: 16px;
     align-items: center;
     margin-bottom: 88px;
+    cursor: pointer;
 }
 
 .footer{
@@ -687,12 +684,22 @@ input::placeholder{
     color: #f0efeb;
 }
 
+.footer__img1 {
+cursor: pointer;
+}
+
 .footer__img2{
     margin: 25px 20px 0 0;
+    cursor: pointer;
 }
 
 .footer__img3{
     margin: 25px 20px 0 0;
+    cursor: pointer;
+}
+
+.footer__img4 {
+    cursor: pointer;
 }
 
 .container__footer-text1{

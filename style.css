@@ -721,6 +721,7 @@ cursor: pointer;
     font-size: 14px;
     line-height: 21px;
     gap: 12px;
+    cursor: pointer;
     color: #FFFFFF;
 }
 
